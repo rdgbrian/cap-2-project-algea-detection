@@ -1,11 +1,13 @@
+.gitignore
 model_deployment/build
 model_deployment/components/esp-dl
+model_deployment/sdkconfig
 model_quantize
-
 .vscode/settings.json
 .DS_Store
-.gitignore
 *.json
 examples/classification/classification.ipynb
 examples/hand-recognition-example
 dataset
+*.keras
+.gitignore
